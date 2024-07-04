@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/bootEventsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boot Events"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/totalDismissalsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total dismissals allowed" />
+
+    <EditText
+        android:id="@+id/intervalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interval between dismissals (minutes)" />
+</LinearLayout>
